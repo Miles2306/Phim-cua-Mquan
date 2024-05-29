@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xem Phim: Detective_Conan_Movie_26</title>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #131313; 
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px; 
+    width: 100%;
+    box-sizing: border-box; 
+    overflow: hidden;
+    border: 2px solid #ffffff; /* Khung viền màu trắng */
+    border-radius: 10px; /* Bo tròn các góc viền */
+    padding: 20px; /* Khoảng cách bên trong */
+    background-color: #1e1e1e; /* Màu nền để nổi bật khung viền */
+}
+
+header {
+    padding: 20px;
+    background-color: #E50914;
+    text-align: center;
+    width: 100%;
+    border: 2px solid #ffffff; /* Khung viền màu trắng */
+    border-radius: 10px; /* Bo tròn các góc viền */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.movie-info {
+    display: flex;
+    flex-wrap: nowrap; /* Đảm bảo các phần tử không bao bọc */
+    padding: 20px;
+    align-items: flex-start; /* Căn chỉnh các phần tử con theo trục ngang */
+}
+
+.movie-info img {
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    border: 2px solid #ffffff; /* Khung viền màu trắng */
+}
+
+.details {
+    flex-grow: 1;
+}
+
+.details h2 {
+    margin-top: 0;
+}
+
+.video-player {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.video-player video {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Bo tròn các góc viền */
+}
+        @media (max-width: 768px) {
+            .movie-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .movie-info {
+                flex-direction: column;
+                align-items: center;
+                padding: 0;
+                text-align: center;
+            }
+            .movie-info img {
+                margin: 0 0 20px 0;
+            }
+            .video-player {
+                width: 100%;
+            }
+    
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="MANHQUAN.png" alt="Logo của trang web">
+        <h1>Conan Movie 26: Tàu Ngầm Sắt Màu Đen</h1>
+        <p>Năm Sản Xuất: 2023 | Thể Loại: Hành Động | Đánh Giá: 10/10</p>
+    </header>
+    <div class="container">
+        <div class="movie-container">
+            
+            <div class="movie-info">
+                <img src="Conan.jpg" alt="Poster của bộ phim">
+                <div class="details">
+                    <h2><strong>Conan Movie 26: Tàu Ngầm Sắt Màu Đen</strong></h2>
+                    <p>Đạo Diễn: Yuzuru Tachikawa | Diễn Viên: Võ Mạnh Quân, Lương Tiểu Băng, Trâm</p>
+                    <p>Thời Lượng: 1 giờ 49 phút</p>
+                    <h2>Mô Tả</h2>
+                    <p>Phần phim mới lấy bối cảnh tại Pacific Buoy - một trụ sở hàng hải của Interpol có nhiệm vụ kết nối các camera an ninh trên toàn thế giới. Nhóm của Conan, theo lời mời của Sonoko, cũng đến đảo Hachijo để xem cá voi. Tại đây, Conan nhận được thông tin về một nhân viên Europol bị ám sát. Cùng với đó, tính mạng Haibara bị đe dọa, phải chăng thân phận của cô đã bị bại lộ trước Gin…</p>
+                </div>
+            </div>            
+            
+            <div class="video-player">
+                <video controls>
+                    <source src="THÁM TỬ LỪNG DANH CONAN TÀU NGẦM SẮT MÀU ĐEN  TRAILER  KC 21072023_1080p.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ video.
+                </video>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
